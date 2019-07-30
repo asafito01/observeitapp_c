@@ -2,6 +2,9 @@
 
 This app includes a client (Angular) and a server (ASP.NET Web API using VB.NET ----> Rewritten to C#)
 
+### Live Demo:
+http://scheduler-client.2beweb.co.il/scheduler
+
 Important notes: 
 
 There are several parts in the project which can be done differently (some of them fixed when writing the project from VB.NET to C#)
