@@ -10,7 +10,7 @@ The controller works with a ISchedulerService which provides it with the needed 
 I used dependency injection so each class can be injected the implementation instead of stronly typing the responsibilities inside the classes
 
 ### Live Demo:
-http://scheduler-client.2beweb.co.il/scheduler
+http://scheduler-client.2beweb.co.il
 
 ### Important Notes: 
 
