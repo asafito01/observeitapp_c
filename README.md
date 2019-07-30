@@ -6,7 +6,9 @@ This app includes a client (Angular) and a server (ASP.NET Web API using VB.NET)
 * The client app is using localhost:4200
 
 The app is separated into layers so each layer has its own responsibility.
+
 The controller works with a ISchedulerService which provides it with the needed scheduler data.
+
 I used dependency injection so each class can be injected the implementation instead of stronly typing the responsibilities inside the classes
 
 ### Live Demo:
