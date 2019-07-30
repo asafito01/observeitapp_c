@@ -1,0 +1,61 @@
+<div class="row">
+	<div class="col-xs-12" *ngIf="foundError">
+		<div class="alert alert-danger" [innerHTML]=errorMessage>
+		</div>
+	</div>
+
+	<div class="col-xs-12">
+		<a class="btn btn-md btn-primary" [routerLink]="['']">Back</a>
+		<h3>Add a new appointment</h3>
+		<form [formGroup]="insertForm" (ngSubmit)='addAppointmentSubmit()'>
+			<div class="form-group">
+				<label>
+					Name:
+					<input type="text" formControlName="Name" class="form-control" required>
+				</label>
+
+			</div>
+
+			<div class="form-group">
+				<label>
+					Start hour:
+					<select formControlName="StartHour" class="form-control">
+						<option value="08:00">08:00</option>
+						<option value="09:00">09:00</option>
+						<option value="10:00">10:00</option>
+						<option value="11:00">11:00</option>
+						<option value="12:00">12:00</option>
+						<option value="13:00">13:00</option>
+						<option value="14:00">14:00</option>
+						<option value="15:00">15:00</option>
+						<option value="16:00">16:00</option>
+						<option value="17:00">17:00</option>
+					</select>
+				</label>
+			</div>
+
+			<div class="form-group">
+				<label>
+					End hour:
+					<select formControlName="EndHour" class="form-control">
+						<option value="08:00">08:00</option>
+						<option value="09:00">09:00</option>
+						<option value="10:00">10:00</option>
+						<option value="11:00">11:00</option>
+						<option value="12:00">12:00</option>
+						<option value="13:00">13:00</option>
+						<option value="14:00">14:00</option>
+						<option value="15:00">15:00</option>
+						<option value="16:00">16:00</option>
+						<option value="17:00">17:00</option>
+					</select>
+				</label>
+			</div>
+
+			<div class="form-group">
+				<button class="btn btn-default btn-md" type="submit" [disabled]="!insertForm.valid || foundError==true">Add
+					appointment</button>
+			</div>
+		</form>
+	</div>
+</div>

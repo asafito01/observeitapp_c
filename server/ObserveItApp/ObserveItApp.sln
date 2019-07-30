@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserveItApp", "ObserveItApp\ObserveItApp.csproj", "{FD3D88A2-8106-42E7-A507-E53AA1CDA1B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserveItApp.Tests", "ObserveItApp.Tests\ObserveItApp.Tests.csproj", "{FF9AB75A-2134-4317-89B9-EC23CA06337C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD3D88A2-8106-42E7-A507-E53AA1CDA1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3D88A2-8106-42E7-A507-E53AA1CDA1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3D88A2-8106-42E7-A507-E53AA1CDA1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3D88A2-8106-42E7-A507-E53AA1CDA1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9AB75A-2134-4317-89B9-EC23CA06337C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9AB75A-2134-4317-89B9-EC23CA06337C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9AB75A-2134-4317-89B9-EC23CA06337C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9AB75A-2134-4317-89B9-EC23CA06337C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED89BF02-7C59-4805-931F-6ED75D720489}
+	EndGlobalSection
+EndGlobal
