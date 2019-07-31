@@ -1,6 +1,6 @@
 # ObserveIt App By Asaf Epelbaum
 
-This app includes a client (Angular) and a server (ASP.NET Web API using VB.NET)
+This app includes a client (Angular) and a server (ASP.NET Web API using VB.NET - Rewritten in C#)
 
 * The server app is using localhost:4444
 * The client app is using localhost:4200
