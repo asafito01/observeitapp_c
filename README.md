@@ -27,7 +27,7 @@ There are several parts in the project which can be done differently (some of th
 
     Also, the client app should have received the error messages and show a propper error message but didn't work as expected and was left off to do something else
     
-    In addition, the SchedulerController didn't handle any try/catch exceptions and it should do
+    In addition, the SchedulerController didn't handle any try/catch exceptions and it should have
     
 2) Bonus 1 was done (had a problem with interval that was adding more intervals each route, forgot to handle the OnDestroy event - fixed in the C# version)
 
