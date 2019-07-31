@@ -26,7 +26,9 @@ There are several parts in the project which can be done differently (some of th
     This could give more information to the SchedulerController about what happened and do the correct action (ex: appointment not created)
 
     Also, the client app should have received the error messages and show a propper error message but didn't work as expected and was left off to do something else
-
+    
+    In addition, the SchedulerController didn't handle any try/catch exceptions and it should do
+    
 2) Bonus 1 was done (had a problem with interval that was adding more intervals each route, forgot to handle the OnDestroy event - fixed in the C# version)
 
 3) Bonus 2 didn't get there because lack of time, but i would have added a IsBest in each SchedulerRowViewModel that says if it is the best or not. Or maybe putting this value once in the response request along with the scheduler rows list
@@ -34,3 +36,4 @@ There are several parts in the project which can be done differently (some of th
 4) I used a shared object for the scheduler data. And I used lock to lock the write and read actions so there are no races between two users who want to add an appointment and the data read is consistent and not partial.
 Maybe it can be done differently, using memory cache or other data provider so it can handle the thread issues properly
 
+5) I could separate the concerns a little further and make the SchedulerService work with a repository instead of handling the data source itself. A repository would handle all the data source responsibilities and the service would consume the SchedulerRepository. Such a separation as stated may require additional changes
